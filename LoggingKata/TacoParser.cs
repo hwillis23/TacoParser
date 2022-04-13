@@ -39,7 +39,7 @@
             // With the name and point set correctly (assigning the value) 
             var point = new Point 
             { 
-                Latitude = latitude, Longitude = longitude
+                Latitude = latitude, Longitude = longitude             //this adds value to the new Point 
             };
             var tacoBell = new TacoBell();
             tacoBell.Location = point;
